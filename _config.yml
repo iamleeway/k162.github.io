@@ -1,1 +1,48 @@
-theme: jekyll-theme-cayman
+# Basic
+title: K162
+# subtitle: from J122721
+welcome_message: a place nearby.
+creator: <a href="http://k162.cn">@荆棘鸟YY</a>
+
+url: "http://k162.space"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color:
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: about, description: about k162, url: 'http://127.0.0.1:4000/2017/10/about-k162/'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: iamleeway
+    # duoshuo: 
+    
+# Social
+social:
+    weibo: iamleeway
+    #github: onevcat
+    #twitter: onevcat
+    #gplus: 107108267983477358170
+    mail: iamleeway@gmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host

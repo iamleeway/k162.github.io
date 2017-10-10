@@ -21,6 +21,7 @@ github 的 pages 服务是免费的，网站内容相当于托管给 github�
 - 社区环境不错，学习成本也低
 
 ### 流程
+
 1. github 上建立托管项目（就是网站目录）
     - 建立完即可访问网站
 	- 可以使用自己的域名
@@ -37,27 +38,25 @@ github 的 pages 服务是免费的，网站内容相当于托管给 github�
 - 注意创建项目的时候写全 `username.github.io`
 
 ### 本地设置
-1. 安装 ruby
+#### 1. 安装 ruby
 就说下 windows 环境：最新版安装完成后会自动安装必要组件，如果没有安装成功，可以打开cmd运行`ridk install`再次安装
 注意 ridk install 安装包可能由于网络原因一直下载不成功，会自动重新下载，需要耐心
 
-1. 安装 jekyll、bundle
+#### 2. 安装 jekyll、bundle
 ```bash
 gem install jekyll bundle
 ```
 
-1. 下载项目到本地
+#### 3. 下载项目到本地
 `git clone https://github.com/iamleeway/k162.github.io.git`
 
-1. 运行服务
+#### 4. 运行服务
 进入目录后：
 ```bash
-bundle install # 只需运行一次
+bundle install # 只需运行一次，若假死状态疑似为网络问题，一定要耐心等待
 bundle exec jekyll server  # 运行服务
 ```
-- 注意`bundle install`这个命令运行后会很长时间假死状态，疑似网络问题，一定要耐心等待
-
-1. 然后打开浏览器访问 127.0.0.1:4000 即可在本地预览网站。
+然后打开浏览器访问 127.0.0.1:4000 即可在本地预览网站。
 
 ### 使用主题
 http://jekyllthemes.org/ 有很多主题，看到中意的可以 git clone 下来，贴到自己的网站目录

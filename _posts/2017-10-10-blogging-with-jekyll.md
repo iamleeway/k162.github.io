@@ -2,6 +2,7 @@
 layout: post
 title: 使用 jekyll 搭建博客
 tags: blog tutorial
+key: post
 category: blog
 date: 2017-10-10 16:08:00 +08:00
 ---

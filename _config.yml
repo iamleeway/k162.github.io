@@ -78,3 +78,6 @@ server_url: "0.0.0.0"
 
 ## Development ##
 isdebug: false
+
+## 渲染未来的时区
+future: true

@@ -81,3 +81,6 @@ isdebug: false
 
 ## 渲染未来的时区
 future: true
+
+## 排除文件
+exclude: ["README.md", "changelog.md", "Gemfile", "Gemfile.lock"]

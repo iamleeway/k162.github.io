@@ -1,48 +1,80 @@
-# Basic
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+## Base settings ##
+hostname: "https://tianqi.name" # the base hostname & protocol for your site
+description: > # this means to ignore newlines until "baseurl:"
+    a place nearby.
+
+##* Home base settings ##
+baseurl: "/"
 title: K162
-# subtitle: from J122721
-welcome_message: a place nearby.
-creator: <a href="http://k162.cn">@荆棘鸟YY</a>
+avata_url: http://ors3vio5q.bkt.clouddn.com/17-10-10/68647649.jpg
 
-url: "https://iamleeway.github.io/k162.github.io/"
+##* Blog base settings ##
+blog:
+  baseurl: "/blog"
+  title: K162.space
+  description: a place nearby.
+  nav_lists:
+    - title: About
+      url: /blog/about.html
+##* Artsworks base settings ##
+#artworks:
+#  baseurl: ""
 
-permalink: /:year/:month/:title/
+## GitHub repository (if the site is hosted by GitHub) ##
+#github_repo: kitian616.github.io
+#github_repo_tree: master
 
-# Format
+## Language & timezone ##
+lang: zh # the language of your site
+timezone: Asia/Shanghai
+
+## Author & social ##
+author: "荆棘鸟YY"
+email: iamleeway@gmail.com
+# twitter_username: kitian616
+# github_username:  kitian616
+# googleplus_username: 101827554735084402671
+# weibo_username: 234695683
+# douban_username: kitian616
+
+## Comment system (Disqus) ##
+disqus_shortname: iamleeway
+
+## Google Analytics ##
+# ga_tracking_id: UA-71907556-1
+
+## Reading quantity (LeanCloud) ##
+# app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
+# app_key: Mzf5m9skSwYVWVXhGiYMNyXs
+# app_class: ThomasBlog
+
+## Paginate ##
+paginate: 7
+paginate_path: /blog/page:num
+
+## Post excerpts ##
+excerpt_separator: <!--more-->
+
+## Build ##
+markdown: kramdown
 highlighter: rouge
+permalink: date
 
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color:
+## Plugins ##
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
 
-# The blog button should not be removed.
-blog_button:
-    title: Blog
-    description: Visit blog
+## Server ##
+server_url: "0.0.0.0"
 
-# Navigation buttons in the front page.
-nav:
-    - {title: about, description: about k162, url: '2017/10/about-k162/'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
-
-# Pagination
-gems: [jekyll-paginate]
-paginate: 10
-paginate_path: "page/:num/"
-
-# Comment
-comment:
-    disqus: iamleeway
-    # duoshuo: 
-    
-# Social
-social:
-    weibo: iamleeway
-    #github: onevcat
-    #twitter: onevcat
-    #gplus: 107108267983477358170
-    mail: iamleeway@gmail.com
-
-# Google Analytics
-ga:
-    # id: your_ga_id
-    # host: your_host
+## Development ##
+isdebug: false

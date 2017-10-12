@@ -48,14 +48,18 @@ gem install jekyll bundle
 ```
 
 #### 3. 下载项目到本地
-`git clone https://github.com/iamleeway/k162.github.io.git`
+```
+git clone https://github.com/iamleeway/k162.github.io.git
+```
 
 #### 4. 运行服务
 进入目录后：
+
 ```bash
-bundle install # 只需运行一次，若假死状态疑似为网络问题，一定要耐心等待
-bundle exec jekyll server  # 运行服务
+bundle install  # 只需运行一次 若假死状态疑似为网络问题要耐心等待
+bundle exec jekyll server  # 运行服务
 ```
+
 然后打开浏览器访问 127.0.0.1:4000 即可在本地预览网站。
 
 ### 使用主题

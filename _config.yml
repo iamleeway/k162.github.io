@@ -13,7 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
 ##* Home base settings ##
 baseurl: "/"
 title: K162
-avata_url: http://ors3vio5q.bkt.clouddn.com/17-10-10/68647649.jpg
+# avata_url: http://ors3vio5q.bkt.clouddn.com/17-10-10/68647649.jpg
+avata_url: http://ors3vio5q.bkt.clouddn.com/17-10-11/63949405.jpg
 
 ##* Blog base settings ##
 blog:

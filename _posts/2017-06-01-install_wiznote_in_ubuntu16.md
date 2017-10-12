@@ -3,7 +3,6 @@ layout: post
 title: Ubuntu16.04 编译安装为知笔记
 tags: linux
 key: post
-category: linux
 date: 2017-06-01 00:00:00 +08:00
 ---
 

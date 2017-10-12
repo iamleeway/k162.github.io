@@ -3,7 +3,6 @@ layout: post
 title: 安装 OpenCV 3.2.0(WIN64 python3 环境)
 tags: python linux opencv
 key: post
-category: linux python
 date: 2017-05-25 00:00:00 +08:00
 ---
 

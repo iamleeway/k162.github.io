@@ -62,8 +62,10 @@ bundle exec jekyll server  # 运行服务
 在本地修改好后，commit 然后 push 到 github 即可，关于 git 的使用方法略了。
 
 ## 三、定制化
+
 ### 使用个性化主题
-http://jekyllthemes.org/ 有很多主题，看到中意的可以 git clone 下来，贴到自己的网站目录。
+
+[http://jekyllthemes.org/](http://jekyllthemes.org/) 有很多主题，看到中意的可以 git clone 下来，贴到自己的网站目录。
 
 注意更换主题需要再次运行`bundle install`，因为主题所依赖的组件不同
 
@@ -75,7 +77,7 @@ http://jekyllthemes.org/ 有很多主题，看到中意的可以 git clone 下�
 1. 在网站目录下新建 CNAME 文件，写上自己的域名，注意不要填写 `http://`
 
 ### 统计浏览次数
-我非常喜欢 teXt 主题，这个主题可以很方便的使用 LeanCloud 进行统计，简单写一下流程：
+我非常喜欢 TeXt 主题，这个主题已经配置好使用 LeanCloud 进行统计，简单写一下使用流程：
 
 1. 注册 [LeanCloud](https://leancloud.cn)
 1. 新建应用，应用名随意

@@ -10,7 +10,7 @@ date: 2017-05-25 00:00:00 +08:00
 
 目前，win64 python3 环境是无法直接安装 opencv 3.2.0 的；折腾一番，总算找到方法了，在此整理一下。
 
-### 安装 opencv 3.2.0
+## 安装 opencv 3.2.0
 
 1. 安装 [Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=53587)
 根据自己的需求选择 32位 或者 64位
@@ -36,7 +36,7 @@ print(cv2.__version__)
 
 以上。
 
-### 附：anaconda 直接安装 opencv 3.1.0
+## 附：anaconda 直接安装 opencv 3.1.0
 目前使用 conda 可直接安装 3.1.0 版本：
 
 ```bash

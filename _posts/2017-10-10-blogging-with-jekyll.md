@@ -9,7 +9,7 @@ date: 2017-10-10 16:08:00 +08:00
 
 博客再度搬迁了一下，一直以为小博客搭在自己服务器上很是惬意，直至经历了各种折腾后，深深体会到了老前辈们的真知灼见：把博客托管到三方，自己做到有限度的控制，才是最省心的，既然 github 提供了这么好的平台，那就索性玩一把，顺道记录分享一下吧。
 
-### 为什么用 jekyll？
+## 为什么用 jekyll？
 
 github 的 pages 服务是免费的，网站内容相当于托管给 github；而 jekyll 的作用是生成美美哒的静态网页。
 这样做的优势是：
@@ -20,7 +20,7 @@ github 的 pages 服务是免费的，网站内容相当于托管给 github�
 - github pages **免费不限流量**
 - 社区环境不错，学习成本也低
 
-### 流程
+## 流程
 
 1. github 上建立托管项目（就是网站目录）
     - 建立完即可访问网站
@@ -32,27 +32,27 @@ github 的 pages 服务是免费的，网站内容相当于托管给 github�
 1. 完成编辑后上传更新项目即可
     - 刷新网页即可看到更新
 
-### github 设置
+## github 设置
 跟着 https://pages.github.com/ 官网步骤做即可。
 
 - 注意创建项目的时候写全 `username.github.io`
 
-### 本地设置
-#### 1. 安装 ruby
+## 本地设置
+### 1. 安装 ruby
 就说下 windows 环境：最新版安装完成后会自动安装必要组件，如果没有安装成功，可以打开cmd运行`ridk install`再次安装
 注意 ridk install 安装包可能由于网络原因一直下载不成功，会自动重新下载，需要耐心
 
-#### 2. 安装 jekyll、bundle
+### 2. 安装 jekyll、bundle
 ```bash
 gem install jekyll bundle
 ```
 
-#### 3. 下载项目到本地
+### 3. 下载项目到本地
 ```
 git clone https://github.com/iamleeway/k162.github.io.git
 ```
 
-#### 4. 运行服务
+### 4. 运行服务
 进入目录后：
 
 ```bash
@@ -62,13 +62,13 @@ bundle exec jekyll server  # 运行服务
 
 然后打开浏览器访问 127.0.0.1:4000 即可在本地预览网站。
 
-### 使用主题
+## 使用主题
 http://jekyllthemes.org/ 有很多主题，看到中意的可以 git clone 下来，贴到自己的网站目录
 注意更换主题需要再次运行`bundle install`，因为主题所依赖的组件不同
 
 - 自定义 css
 主题的CSS文件中使用了很多变量，一般储存在`\_sass\variables.scss`，可以方便的修改页面的颜色
 
-### 自定义域名
+## 自定义域名
 1. 购买域名，在域名解析页面设置 CNAME 到 username.github.io
 1. 在网站目录下新建 CNAME 文件，写上自己的域名，注意不要填写 `http://`

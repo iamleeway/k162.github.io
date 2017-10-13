@@ -2,7 +2,7 @@
 layout: post
 title: 使用 v2ray 科学上网
 tags: linux v2ray
-key: post
+key: 10003
 date: 2016-01-08 00:00:00 +08:00
 ---
 

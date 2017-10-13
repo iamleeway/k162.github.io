@@ -2,7 +2,7 @@
 layout: post
 title: 一键切换浏览器 chrome firefox edge
 tags: autohotkey
-key: post
+key: 10006
 date: 2016-08-04 00:00:00 +08:00
 ---
 

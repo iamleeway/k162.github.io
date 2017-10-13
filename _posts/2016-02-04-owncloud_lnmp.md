@@ -2,7 +2,7 @@
 layout: post
 title: lnmp 环境搭建 ownCloud 私有云
 tags: vps linux nginx
-key: post
+key: 10005
 date: 2016-02-04 00:00:00 +08:00
 ---
 

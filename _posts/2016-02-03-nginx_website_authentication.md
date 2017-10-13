@@ -2,7 +2,7 @@
 layout: post
 title: 使用 nginx 为网站添加身份验证
 tags: vps linux nginx
-key: post
+key: 10004
 date: 2016-02-04 00:00:00 +08:00
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 反曲弓入门二三事-新手射箭心得
 tags: 反曲弓
-key: post
+key: 10002
 date: 2015-10-29 00:00:00 +08:00
 ---
 

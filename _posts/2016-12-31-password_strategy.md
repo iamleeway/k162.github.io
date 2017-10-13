@@ -2,7 +2,7 @@
 layout: post
 title: 如何构建自己的密码
 tags: 密码
-key: post
+key: 10008
 date: 2016-12-31 00:00:00 +08:00
 ---
 

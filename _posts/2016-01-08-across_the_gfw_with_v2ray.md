@@ -10,7 +10,7 @@ date: 2016-01-08 00:00:00 +08:00
 
 ## 一、简介
 V2Ray 是一种类似SS的科学上网工具，采用独特的VMess协议进行加密传输，理论上更安全可靠。
-目前已支持 Windows、Mac OS X、Linux，未来还将加入 iOS 和 Android 的支持。
+目前已支持 Windows、Mac OS X、Linux、Android。
 
 - [官方手册](https://www.v2ray.com/)
 - [github](https://github.com/v2ray/v2ray.github.io/wiki)

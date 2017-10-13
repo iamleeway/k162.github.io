@@ -54,7 +54,7 @@ ga_tracking_id: UA-69302010-2
 ## Reading quantity (LeanCloud) ##
 app_id: STu26YMKC3E2irXcC15QchHf-gzGzoHsz
 app_key: FWS9QG14SGoHhX2f85CEJnTN
-app_class: post_count
+app_class: Counter
 
 ## Paginate ##
 paginate: 5

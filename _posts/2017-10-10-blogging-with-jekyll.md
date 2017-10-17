@@ -44,7 +44,7 @@ gem install jekyll bundle
 ```
 
 ### 3. 下载项目到本地
-`git clone https://github.com/iamleeway/k162.github.io.git`
+`git clone https://github.com/username/username.github.io.git`
 
 ### 4. 运行服务
 进入目录后：

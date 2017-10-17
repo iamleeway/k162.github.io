@@ -51,7 +51,7 @@ gem install jekyll bundle
 
 ```bash
 bundle install # 只需运行一次
-bundle exec jekyll server  # 运行服务
+bundle exec jekyll server  # 运行服务
 ```
 
 - 然后打开浏览器访问 127.0.0.1:4000 即可在本地预览网站

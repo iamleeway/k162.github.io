@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 基于 urllib3 的 python 爬虫笔记
-tags: tips python 爬虫
+title: python urllib3 爬虫教程
+tags: tips python 爬虫 tutorial
 key: 10019
 date: 2017-10-16 00:00:00 +08:00
 ---

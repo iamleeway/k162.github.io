@@ -11,6 +11,6 @@ k162 是 eveonline 中虫洞的出口标识；K162 可以通向宇宙中的任�
 
 一如星辰之中，守在心底的，不过是那一道微光。
 
-—— From J122721
+—— Leeway. from J122721
 
 联系方式：iamleeway@gmail.com

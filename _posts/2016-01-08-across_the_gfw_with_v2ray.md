@@ -9,7 +9,7 @@ date: 2016-01-08 00:00:00 +08:00
 2017-10-13 更新
 
 ## 一、简介
-V2Ray 是一种类似SS的科学上网工具，采用独特的VMess协议进行加密传输，理论上更安全可靠。
+V2Ray 是一种类似SS的科学上网工具，采用独特的VMess协议进行加密传输，理论上更安全可靠。  
 目前已支持 Windows、Mac OS X、Linux、Android。
 
 - [官方手册](https://www.v2ray.com/)
@@ -45,7 +45,7 @@ curl -L -s https://raw.githubusercontent.com/v2ray/v2ray-core/master/release/ins
 
 ### 3. 配置服务器
 
-编辑配置文件`vi /etc/v2ray/config.json`
+编辑配置文件`vi /etc/v2ray/config.json`  
 用过SS的童鞋一定很熟悉，同样只需要修改极少的参数
 
 ```json

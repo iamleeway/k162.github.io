@@ -12,10 +12,10 @@ date: 2017-05-25 00:00:00 +08:00
 
 ## 安装 opencv 3.2.0
 
-1. 安装 [Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=53587)
+1. 安装 [Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=53587)  
 根据自己的需求选择 32位 或者 64位
 
-1. 在 [http://www.lfd.uci.edu/~gohlke/pythonlibs/](http://www.lfd.uci.edu/~gohlke/pythonlibs/) 下载三方已经编译好的 whl 安装包，根据自己的需求选择对应版本（如果下载到的是zip文件可直接修改后缀为whl）：
+1. 在 [http://www.lfd.uci.edu/~gohlke/pythonlibs/](http://www.lfd.uci.edu/~gohlke/pythonlibs/) 下载三方已经编译好的 whl 安装包，根据自己的需求选择对应版本（如果下载到的是zip文件可直接修改后缀为whl）
 - Numpy是必须的，这里我用的是：numpy-1.13.0rc2+mkl-cp35-cp35m-win_amd64.whl
 - opencv：opencv_python-3.2.0-cp35-cp35m-win_amd64.whl
 

@@ -9,7 +9,7 @@ date: 2017-10-10 16:08:00 +08:00
 博客再度搬迁了一下，一直以为小博客搭在自己服务器上很是惬意，直至经历了各种折腾后，深深体会到了老前辈们的真知灼见：把博客托管到三方，自己做到有限度的控制，才是最省心的，既然 github 提供了这么好的平台，那就索性玩一把，顺道记录分享一下吧。
 
 ### 用 jekyll 搭建有什么优势？
-github 的 pages 服务是免费的，网站内容相当于托管给 github；而 jekyll 的作用是生成美美哒的静态网页。
+github 的 pages 服务是免费的，网站内容相当于托管给 github；而 jekyll 的作用是生成美美哒的静态网页。  
 这样做的优势是：
 - **维护省心**，不用担心服务器挂掉、502、备份数据库、ddos等问题
 - **markdown** 支持
@@ -59,6 +59,7 @@ bundle exec jekyll server  # 运行服务
 - 注意`bundle install`这个命令运行后会很长时间假死状态，疑似网络问题，一定要耐心等待
 
 ### 更新到 github
+
 在本地修改好后，commit 然后 push 到 github 即可，关于 git 的使用方法略了。
 
 ## 三、定制化
@@ -69,7 +70,7 @@ bundle exec jekyll server  # 运行服务
 
 注意更换主题需要再次运行`bundle install`，因为主题所依赖的组件不同
 
-- 自定义 css
+- 自定义 css  
 主题的CSS文件中使用了很多变量，一般储存在`\_sass\variables.scss`，可以方便的修改页面的颜色
 
 ### 自定义域名
@@ -81,8 +82,8 @@ bundle exec jekyll server  # 运行服务
 
 1. 注册 [LeanCloud](https://leancloud.cn)
 1. 新建应用，应用名随意
-1. 在应用面板：储存->创建 Class，名称随意，但要记住，后面要用
+1. 在应用面板：储存->创建 Class，名称随意，但要记住，后面要用  
     注意 ACL 权限要设置为`无限制`，默认是`限制写入`
 1. 在应用面板：设置->应用 Key，记录下`App ID`、`App Key`
-1. 编辑主题的`_config.yml`
+1. 编辑主题的`_config.yml`  
     设置 Reading quantity (LeanCloud)，填写刚才创建的`Class名称`、`App ID`、`App Key`

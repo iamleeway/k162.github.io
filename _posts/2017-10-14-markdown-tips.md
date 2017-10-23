@@ -15,7 +15,7 @@ date: 2017-10-14 00:00:00 +08:00
 
 比如我习惯在为知笔记上用 editor.md 编辑器进行书写，书写的时候是不用考虑全角空格与半角空格的，当把文章复制到另一个编辑器（发布博客），就会遇到不能正确换行的问题，这其实就是空格键出了问题。
 
-其实这个问题很好解决，用正则表达式对空格全部替换即可。
+其实这个问题很好解决，用正则表达式对空格全部替换即可。  
 可以用 notepad++ 或其他支持正则表达式的编辑器。
 
 即：将 `(\S)\s` 替换成 `\1空格`
@@ -53,13 +53,13 @@ unmodifed->untracked: remove file
 
 使用 [http://www.tablesgenerator.com/markdown_tables](http://www.tablesgenerator.com/markdown_tables)
 
-1. 贴入粘贴内容，可以从 EXCEL、网页、文本 等各种地方复制原表格
+1. 贴入粘贴内容，可以从 EXCEL、网页、文本 等各种地方复制原表格  
 ![](http://ors3vio5q.bkt.clouddn.com/17-10-13/38346715.jpg)
 
-1. 确认是否需要修改，然后`Generate`
+1. 确认是否需要修改，然后`Generate`  
 ![](http://ors3vio5q.bkt.clouddn.com/17-10-13/40596074.jpg)
 
-1. 拷贝到文本即可
+1. 拷贝到文本即可  
 ![](http://ors3vio5q.bkt.clouddn.com/17-10-13/60633314.jpg)
 
 

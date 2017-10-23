@@ -85,7 +85,7 @@ ret = reader(ret)  # 解码
 
 1. 打开 Fiddler 即开始抓包 （ctrl + x） 可以清空记录
 1. 打开网页账户登录页面（默认系统代理，不要开代理）
-1. 找到跳转之后的第一个页面
+1. 找到跳转之后的第一个页面  
 ![](http://ors3vio5q.bkt.clouddn.com/17-10-16/23644872.jpg)
 
 ```python
@@ -163,8 +163,8 @@ def del_emoji(string):
 ### 2. 处理 json 时间戳
 有时候得到的时间格式是这样的 `'/Date(-62135596800000-0000)/'`不要慌，这本质上就是一种时间戳。相关文档看 [这里](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/stand-alone-json-serialization)，可以 [在线转换](https://www.epochconverter.com/)。
 
-`-62135596800000` 表示 GMT: 0001年Jan1日MondayAM12点00分
-`1504071373` 表示 GMT: 2017年Aug30日WednesdayAM5点36分
+`-62135596800000` 表示 GMT: 0001年Jan1日MondayAM12点00分  
+`1504071373` 表示 GMT: 2017年Aug30日WednesdayAM5点36分  
 最后 `-0000` 表示时区， 例如`0800`表示 `08:00` 即北京时间
 
 - 转换方法即取前 10 位，即 timestamp，进行转换

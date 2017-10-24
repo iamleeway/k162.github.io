@@ -6,19 +6,22 @@ key: 10019
 date: 2017-10-16 00:00:00 +08:00
 ---
 
-- Urllib3 是一个功能强大，条理清晰，用于HTTP客户端的Python库，许多Python的原生系统已经开始使用urllib3。
-- 文档 https://urllib3.readthedocs.io/en/latest/
-- Urllib3 提供了很多python标准库里所没有的重要特性：
-    1. 线程安全
-    1. 连接池
-    1. 客户端SSL/TLS验证
-    1. 文件分部编码上传
-    1. 协助处理重复请求和HTTP重定位
-    1. 支持压缩编码
-    1. 支持HTTP和SOCKS代理
-    1. 100% 测试覆盖率
+> Urllib3 是一个功能强大，条理清晰，用于HTTP客户端的Python库，许多Python的原生系统已经开始使用urllib3。  
+> 文档 <https://urllib3.readthedocs.io/en/latest/>  
+> Urllib3 提供了很多python标准库里所没有的重要特性：
 
-> 上面这段是抄的，说实话实际用来下我没感觉出和 urllib2、requests 有多大的区别，爬虫的招式都差不多，urllib3 给我的最大的感受是**简洁易用**，还有可能比 requests 稍微快一点。搜了一下目前也鲜有介绍 urllib3 的中文教程，索性连同爬虫知识一起分享一下吧。
+- 线程安全
+- 连接池
+- 客户端SSL/TLS验证
+- 文件分部编码上传
+- 协助处理重复请求和HTTP重定位
+- 支持压缩编码
+- 支持HTTP和SOCKS代理
+- 100% 测试覆盖率
+
+上面这段是抄的，说实话实际用来下我没感觉出和 urllib2、requests 有多大的区别，爬虫的招式都差不多，urllib3 给我的最大的感受是**简洁易用**，还有可能比 requests 稍微快一点。搜了一下目前也鲜有介绍 urllib3 的中文教程，索性连同爬虫知识一起分享一下吧。
+
+<!--more-->
 
 ## 安装
 `pip install urllib3`

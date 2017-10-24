@@ -14,6 +14,7 @@ Chrome 与 Firefox 都是非常优秀的浏览器，出于有些需要，我经�
 1. 按`Alt+Shift+C`将标签页发送至 Chrome
 1. 按`Alt+Shift+E`将标签页发送至 edge
 
+<!--more-->
 
 安装 Autohotkey 后，新建文本文件，写入以下代码，存为`.ahk`文件，直接运行即可。
 如需自定义快捷键，请修改对应热键代码。

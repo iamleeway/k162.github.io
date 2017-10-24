@@ -22,6 +22,8 @@ ownCloud是一个自由且开源的个人云存储解决方案，配置好服务
 省心的一键脚本可以戳这里：[Tennfy - debian下lnmp一键安装脚本完善版](http://www.tennfy.com/2123.html "debian下lnmp一键安装脚本完善版")
 使用一键配置可以省略文本很多操作步骤，只需 8,9,11
 
+<!--more-->
+
 ### 1. 安装 MySQL 5
 
 ```bash

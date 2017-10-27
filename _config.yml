@@ -37,13 +37,13 @@ lang: zh # the language of your site
 timezone: Asia/Shanghai
 
 ## Author & social ##
-author: "荆棘鸟YY"
+author: "LEEWAY"
 email: iamleeway@gmail.com
-# twitter_username: kitian616
-# github_username:  kitian616
+# twitter_username: xxxxxxx
+# github_username:  iamleeway
 # googleplus_username: 101827554735084402671
-# weibo_username: 234695683
-# douban_username: kitian616
+# weibo_username: iamleeway
+# douban_username: xxxxxxx
 
 ## Comment system (Disqus) ##
 disqus_shortname: k162space

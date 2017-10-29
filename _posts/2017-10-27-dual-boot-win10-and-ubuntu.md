@@ -40,7 +40,8 @@ date: 2017-10-27 00:00:00 +08:00
 1. 下载 [Rufus U盘刻录工具](https://rufus.akeo.ie/?locale=zh_CN) 
 
 1. 选择镜像，按下图设置然后刻录即可  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/35455234.jpg)
+注意，如果安装 ubuntu17，Rufus 可能会提示需下载几个文件，确认就可以了  
+![](http://ors3vio5q.bkt.clouddn.com/17-10-29/23818782.jpg)
 
 ### 4. 设置 U盘启动（BIOS） 
 这个网上资料非常多，简要说下：一般进入 BIOS 是开机按 F2（笔记本居多） 或 F10 或 DEL（台式机居多），开机启动顺序一般在 Advanced BIOS Features 中设置，里面有开机顺序选择，把 USB 选项放到硬盘启动之前即可。 

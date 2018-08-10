@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 读书笔记《监管》
 tags: 读书笔记 金融
 key: 10015

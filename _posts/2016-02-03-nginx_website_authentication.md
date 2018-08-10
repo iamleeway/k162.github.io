@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 使用 nginx 为网站添加身份验证
 tags: vps linux nginx
 key: 10004

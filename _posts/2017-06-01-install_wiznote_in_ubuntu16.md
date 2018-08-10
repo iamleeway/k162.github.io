@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ubuntu16.04 编译安装为知笔记
 tags: linux
 key: 10011

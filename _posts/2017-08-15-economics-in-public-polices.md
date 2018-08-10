@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 读书笔记《新加坡公共政策背后的经济学》
 tags: 读书笔记 金融
 key: 10014

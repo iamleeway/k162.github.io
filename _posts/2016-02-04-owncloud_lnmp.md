@@ -1,5 +1,4 @@
 ---
-layout: post
 title: lnmp 环境搭建 ownCloud 私有云
 tags: vps linux nginx
 key: 10005

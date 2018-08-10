@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 如何构建自己的密码
 tags: 密码
 key: 10008

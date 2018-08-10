@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 通讯录管理工具分享
 tags: tips
 key: 10020

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: python urllib3 爬虫教程
 tags: tips python 爬虫 tutorial
 key: 10019

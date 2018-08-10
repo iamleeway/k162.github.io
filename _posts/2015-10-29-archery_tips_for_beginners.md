@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 反曲弓入门二三事-新手射箭心得
 tags: 反曲弓
 key: 10002

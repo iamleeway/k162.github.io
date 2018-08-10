@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 安装 WIN10 ubuntu 双系统 避坑指南
 tags: linux tips tutorial
 key: 10022

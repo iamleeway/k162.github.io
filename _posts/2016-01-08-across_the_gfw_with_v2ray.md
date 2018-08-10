@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 使用 v2ray 科学上网
 tags: linux v2ray
 key: 10003

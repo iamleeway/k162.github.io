@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 掉期与互换的区别
 tags: 金融
 key: 10013

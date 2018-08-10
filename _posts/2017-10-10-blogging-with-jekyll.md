@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 使用 jekyll 搭建博客
 tags: blog tutorial
 key: 10012

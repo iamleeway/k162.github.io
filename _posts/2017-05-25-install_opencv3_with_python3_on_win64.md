@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 安装 OpenCV 3.2.0(WIN64 python3 环境)
 tags: python linux opencv
 key: 10010

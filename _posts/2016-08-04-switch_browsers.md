@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 一键切换浏览器 chrome firefox edge
 tags: autohotkey
 key: 10006

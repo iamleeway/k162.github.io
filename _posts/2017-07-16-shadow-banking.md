@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 读书笔记《影子银行阳光化》
 tags: 读书笔记 金融
 key: 10016

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: linux 安装 meow 1.5
 tags: linux tips tutorial
 key: 10023

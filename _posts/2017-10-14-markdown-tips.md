@@ -1,5 +1,4 @@
 ---
-layout: post
 title: markdown 技巧分享
 tags: tips
 key: 10018

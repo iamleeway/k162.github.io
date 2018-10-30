@@ -88,7 +88,7 @@ ret = reader(ret)  # 解码
 1. 打开 Fiddler 即开始抓包 （ctrl + x） 可以清空记录
 1. 打开网页账户登录页面（默认系统代理，不要开代理）
 1. 找到跳转之后的第一个页面  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-16/23644872.jpg)
+![](http://k162.space/post_img/17-10-16/23644872.jpg)
 
 ```python
 headers = {
@@ -115,7 +115,7 @@ r = http.request('POST', url_target)
 ```
 
 ### 3. 请求 JSON 类型的数据
-![](http://ors3vio5q.bkt.clouddn.com/17-10-16/37872659.jpg)
+![](http://k162.space/post_img/17-10-16/37872659.jpg)
 
 - JSON 方法的页面的最大特征是：直接打开网址会返回“参数错误”  
 - 请求网页需要 发送 JSON 格式的数据，要与一般的 POST 方法区分开来  
@@ -137,7 +137,7 @@ r = http.request(
 ```
 
 ### 4. 表单数据 Form Data
-![](http://ors3vio5q.bkt.clouddn.com/17-10-16/72166150.jpg)
+![](http://k162.space/post_img/17-10-16/72166150.jpg)
 
 这类网页需要传入一个表单数据，在 urllib3 中传入 `fields` 参数即可
 

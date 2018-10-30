@@ -29,7 +29,7 @@ wget http://download.qt.io/official_releases/qt/5.7/5.7.0/qt-opensource-linux-x6
 ```
 
 接下来是图形化安装界面，略
-![](http://ors3vio5q.bkt.clouddn.com/17-10-12/92330134.jpg)
+![](http://k162.space/post_img/17-10-12/92330134.jpg)
 
 #### 2.1 添加 fcitx 的qt支持
 
@@ -60,11 +60,11 @@ unzip -q v2.5.1.zip
 
 ### 4. 进行编译
 打开 QtCreator，打开文件，选择为知目录下的`CMakeLists.txt`文件  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-12/66978372.jpg)
+![](http://k162.space/post_img/17-10-12/66978372.jpg)
 点击`Configure Project`  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-12/828240.jpg)
+![](http://k162.space/post_img/17-10-12/828240.jpg)
 然后直接`Run CMake`运行即可，在编译输出栏可以看到进度，可能会看到这个错误：  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-12/59326021.jpg)  
+![](http://k162.space/post_img/17-10-12/59326021.jpg)  
 这是由于使用了高版本的`GCC/G++ 5`（Ubuntu16默认的版本），若使用低版本的就不会报错，如降级为`GCC/G++ V4.8`。  
 
 编译完成之后就可以运行wiz客户端了。

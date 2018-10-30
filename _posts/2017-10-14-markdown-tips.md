@@ -30,7 +30,7 @@ date: 2017-10-14 00:00:00 +08:00
 
 大部分 markdown 编辑器都支持流程图和时序图，时序图也是非常实用的一种工具，如果参与者较多，不声明参与者顺序的情况，就会显得很混乱，比如这个描述 git 文件属性的时序图：
 
-![](http://ors3vio5q.bkt.clouddn.com/17-10-14/14492462.jpg)
+![](http://k162.space/post_img/17-10-14/14492462.jpg)
 
 如果想要指定参与者顺序，需要先声明 `participant`:
 
@@ -48,20 +48,20 @@ unmodifed->untracked: remove file
 
 效果如下
 
-![](http://ors3vio5q.bkt.clouddn.com/17-10-14/69026629.jpg)
+![](http://k162.space/post_img/17-10-14/69026629.jpg)
 
 ### 快捷制作表格：从 EXCEL 或网页复制
 
 使用 [http://www.tablesgenerator.com/markdown_tables](http://www.tablesgenerator.com/markdown_tables)
 
 1. 贴入粘贴内容，可以从 EXCEL、网页、文本 等各种地方复制原表格  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-13/38346715.jpg)
+![](http://k162.space/post_img/17-10-13/38346715.jpg)
 
 1. 确认是否需要修改，然后`Generate`  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-13/40596074.jpg)
+![](http://k162.space/post_img/17-10-13/40596074.jpg)
 
 1. 拷贝到文本即可  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-13/60633314.jpg)
+![](http://k162.space/post_img/17-10-13/60633314.jpg)
 
 
 | name       | age |

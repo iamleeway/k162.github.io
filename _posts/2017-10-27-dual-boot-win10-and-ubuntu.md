@@ -16,19 +16,19 @@ date: 2017-10-27 00:00:00 +08:00
 - 进行磁盘清理  
     这样做是为了便于压缩出磁盘空间（如果安装到新的硬盘则无需该操作）  
     选择想要压缩的磁盘，点击`优化`即可  
-    ![](http://ors3vio5q.bkt.clouddn.com/17-10-27/95147729.jpg) 
+    ![](http://k162.space/post_img/17-10-27/95147729.jpg) 
 
 - 进入磁盘管理  
     1. 选择想要压缩的磁盘，在下方右键选择`压缩卷`  
-    ![](http://ors3vio5q.bkt.clouddn.com/17-10-27/72147014.jpg)
+    ![](http://k162.space/post_img/17-10-27/72147014.jpg)
     1. 输入想要安装的新的分区的空间（不建议低于25G）  
-    ![](http://ors3vio5q.bkt.clouddn.com/17-10-27/45771251.jpg)
+    ![](http://k162.space/post_img/17-10-27/45771251.jpg)
     1. 完成之后就多了一个未分配的空间  
-    ![](http://ors3vio5q.bkt.clouddn.com/17-10-27/19832788.jpg)
+    ![](http://k162.space/post_img/17-10-27/19832788.jpg)
 
 ### 2. 下载系统镜像 
 
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/78087853.jpg)
+![](http://k162.space/post_img/17-10-27/78087853.jpg)
 
 - 下载地址：<https://www.ubuntu.com/download/desktop> 
 
@@ -40,44 +40,44 @@ date: 2017-10-27 00:00:00 +08:00
 
 1. 选择镜像，按下图设置然后刻录即可  
 注意，如果安装 ubuntu17，Rufus 可能会提示需下载几个文件，确认就可以了  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-29/23818782.jpg)
+![](http://k162.space/post_img/17-10-29/23818782.jpg)
 
 ### 4. 设置 U盘启动（BIOS） 
 这个网上资料非常多，简要说下：一般进入 BIOS 是开机按 F2（笔记本居多） 或 F10 或 DEL（台式机居多），开机启动顺序一般在 Advanced BIOS Features 中设置，里面有开机顺序选择，把 USB 选项放到硬盘启动之前即可。 
 
 ## 二、进行系统安装 
 1. 选择语言，然后点击 Install 进行安装  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/16386801.jpg)
+![](http://k162.space/post_img/17-10-27/16386801.jpg)
 
 1. 设置安装更新和驱动（不赶时间的可以都勾选）  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/17286168.jpg)
+![](http://k162.space/post_img/17-10-27/17286168.jpg)
 
 1. 选择安装类型  
 第一个表示和 WIN10 安装在同一个分区（不推荐）  
 我们要在新的分区安装，**选择最后一项**`do something else`  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/79399326.jpg)
+![](http://k162.space/post_img/17-10-27/79399326.jpg)
 
 1. 挂载分区  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/41458940.jpg)
+![](http://k162.space/post_img/17-10-27/41458940.jpg)
 很多人在这个步骤搞不清楚，其实原理非常简单，即你准备把目前的可用磁盘空间如何进行分配（和“分区”有点类似），我们一般只需要关注两种：系统分区和 SWAP 分区。  
     - **SWAP 分区**，可以把这个看作虚拟内存（一般设置为物理内存的 1.5 ~ 2 倍）。当物理内存耗尽时，才会用到 swap，因此如果你内存够大，比如 16G，是完全可以不需要 swap 分区的  
-    ![](http://ors3vio5q.bkt.clouddn.com/17-10-27/82256506.jpg)
+    ![](http://k162.space/post_img/17-10-27/82256506.jpg)
     - **系统分区**，大部分空间挂给系统即可  
-    ![](http://ors3vio5q.bkt.clouddn.com/17-10-27/91051437.jpg)
+    ![](http://k162.space/post_img/17-10-27/91051437.jpg)
 
 1. 设置完毕进行安装，设置时区、用户名等 
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/92391780.jpg)
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/17902599.jpg)
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/26486827.jpg)
+![](http://k162.space/post_img/17-10-27/92391780.jpg)
+![](http://k162.space/post_img/17-10-27/17902599.jpg)
+![](http://k162.space/post_img/17-10-27/26486827.jpg)
 
 1. 安装完毕后重启即可  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/82821297.jpg)
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/52786370.jpg)
+![](http://k162.space/post_img/17-10-27/82821297.jpg)
+![](http://k162.space/post_img/17-10-27/52786370.jpg)
 
 ## 三、系统设置：调整引导 
 
 - 默认的引导界面是这样的  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/76479014.jpg)
+![](http://k162.space/post_img/17-10-27/76479014.jpg)
 
 - 如果想设置 WIN10 优先，可以编辑 grub 文件  
 `sudo vi /etc/default/grub`，然后根据自己开机显示的操作选项顺序设置 DEFAULT 的值（0开始计数） 
@@ -91,10 +91,10 @@ sudo apt-get install grub-customizer
 ``` 
 
 - 使用 grub-customizer 调整顺序即可  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/82149141.jpg)
+![](http://k162.space/post_img/17-10-27/82149141.jpg)
 
 - 调整引导之后的效果  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/58481060.jpg)
+![](http://k162.space/post_img/17-10-27/58481060.jpg)
 
 ## 四、卸载系统与恢复引导 
 如果 ubuntu 出了问题，或者厌倦了，恐怕又得折腾回去，在此一并分享下备用吧。 
@@ -104,7 +104,7 @@ sudo apt-get install grub-customizer
 1. 进入 windows，下载 [EasyBCD](http://neosmart.net/EasyBCD/) 
 
 1. 将 windows 作为主引导（MBR）  
-![](http://ors3vio5q.bkt.clouddn.com/17-10-27/86495946.jpg)
+![](http://k162.space/post_img/17-10-27/86495946.jpg)
 
 1. 再进入磁盘管理，删除 ubuntu 分区，然后并入原来的分区即可。 
 
